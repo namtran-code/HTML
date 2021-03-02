@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tạo form</title>
+        <style>
+            .wufoo {
+                font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+            }
+            h2
+            {
+                background-color: tomato;
+                width: 480px;
+                height: 28px;                
+            }
+            .exam
+            {
+                background-color: white;
+                width: 500px;
+                height: 300px;
+            }
+            .exam11
+            {
+                background-color:cornflowerblue ;
+                width: 530px;
+                height: 330px;
+            }
+            .canphai
+            {
+                text-align: right;
+            }
+            .top
+            {
+                text-align: top;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+        <div class="exam11"></br>
+            <div class="exam">   
+                
+                    <form>
+                        <table>
+                            <tr>
+                            
+                                <td>
+                                    <center>
+                                        <span style="color:white" >
+                                        <h2>SỞ THÍCH CỦA BẠN </h2></span>
+                                    </center>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                        <tr>
+                            <p><td><span style="color:blue" ><div class="canphai ">Họ và tên </div></span></td>
+                            <td><input type = "text" name="firstname" placeholder="yourname" size="25" /></td></p>
+                        </tr>
+                        <tr>
+                            <p><td><span style="color:blue"><div class="canphai">Email </div></span></td>
+                            <td><input type = "text" name="email" placeholder="email " size="15"/></td></p>
+                        </tr>
+                        <tr>
+                            <p><td><span style="color:blue"><div class="canphai"><div class="top">Sở thích</div></div></span></td>
+                                <td> 
+                                    <span style="color: red">
+                                        <table>
+                                            <tr>
+
+                                                <td><input type="checkbox" name="hobby "/> Thể thao</td>
+                                                <td><input type="checkbox" name="hobby "/> Âm nhạc</td>
+                                                <td><input type="checkbox" name="hobby "/> Đọc sách </td>
+                                            </tr>
+                                            <tr>
+                                                <td><input type="checkbox" name="hobby "/> Lướt web</td>
+                                                <td><input type="checkbox" name="hobby "/> Chơi game</td>
+                                                <td><input type="checkbox" name="hobby "/> Điện ảnh </td>
+                                            </tr>
+                                            <tr>
+                                                    
+                                                <td><input type="checkbox" name="hobby "/> Du lịch </td>
+                                            </tr>
+                                            
+                                        </table>
+                                    </span> 
+                                </td>
+                            </p>
+                        </tr>
+                    
+                        </table>
+                    </form>
+                <p>
+                    <input type = "button" name="Gửi thông tin" value="Submit"/>
+                    <input type = "reset" name="Nhập lại " value="Reset"/>
+                </p>
+            </div>
+        </div>
+    </center>
+    </body>
+</html>

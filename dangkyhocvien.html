@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Đăng ký học viên</title>
+        <style>
+            h2 {background-color:lightsteelblue ;
+                color:blue;
+            }
+            th{color: blue;
+                text-align: left;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+            <table>
+                <form >
+                <tr>
+                    <th>Họ và tên</th>
+                    <td>
+                        <input name="yourname" type="text" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <th>Ngày sinh </th>
+                    <td>
+                        <input name="birthday" type="date" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <th>Giới tính </th>
+                    <td>
+                        <input name="sex" type="radio" checked="checked"/>Nam 
+                        <input name="sex" type="radio" /> Nữ 
+                    </td>
+                </tr>
+                <tr>
+                    <th>Địa chỉ </th>
+                    <td>
+                        <textarea cols="50" rows="4" >  </textarea> 
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th>Lớp </th>
+                    <td>
+                        <select name="select class">
+                            <option value="01">Class 01</option>
+                            <option value="02">Class 02</option>
+                            <option value="03">Class 03</option>
+                        </select>                  
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>
+                        <input name="email" type="email" /> 
+                    </td>
+                </tr>
+                <tr>
+                    <th>Điện thoại</th>
+                    <td>
+                        <input name="phone" type="number"/>               </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                    <button type="submit">Đăng kí </button>
+                    <button type="reset">Nhập lại </button> 
+                    </td>
+                </tr>
+            </form>
+            </table>
+    </body>
+</html>
