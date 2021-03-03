@@ -1,0 +1,37 @@
+td, th {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: medium;
+    /*  */
+}
+.c01 {
+    background-color: #FFB300;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.c01 th:first-child{
+    background-color: #FF2600;
+
+}
+.c01 th:last-child{
+    background-color: blue;
+}
+td:first-child{
+    color: #FF2600;
+
+}
+td:last-child{
+    color: blue;
+}
+table{
+    background-color:white;
+    /* border: 1px solid; */
+}
+.c02{
+    border: 1px solid white;
+}
+tr{
+    border: 1px solid grey;
+}
