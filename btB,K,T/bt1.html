@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var VL;
+        var HH;
+        var SH;
+        VL=prompt('nhap diem mon Vat Ly:');
+        HH=prompt('nhap diem mon Hoa Hoc:');
+        SH=prompt('nhap diem mon Sinh Hoc:');
+        var VL=parseInt(VL);
+        var HH=parseInt(HH);
+        var SH=parseInt(SH);
+        var tong = sum(VL,HH,SH);
+        document.write("Tong diem:"+tong);
+        document.write('</br>');
+        var DTB=(tong/3);
+        document.write("Diem trung binh:"+DTB);
+        function sum(a,b,c){
+            return a + b + c;
+        }
+    </script>
+</body>
+</html>
